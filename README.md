@@ -3,6 +3,8 @@ ADSB message converter
 
 
 An incomplete ADSB hex message converter , meant only as an exercise in understanding . 
+
+
 features : 
 >> callsign decoding
 >>position decoding (using cpr)
@@ -10,7 +12,12 @@ features :
 >> heading 
 >> airspeed (GroundSpeed,TAS and IAS)
 
+
+
 missing or todo:
+
+
+
 >> parity check
 >> adsb version checking 
 >> accuracy and status decoding 
