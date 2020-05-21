@@ -31,7 +31,7 @@ also with the exception of a few obvious errors which can occur the amount of er
 I wonder if it were possible to work directly with the bits using bitshifting in C++ instead of the amount of often unnessacary type conversions 
 
 Limitations:
->> the main function has linux terminal specific commands i.e: 'system("read")' which can be replaced to 'system("PAUSE")' to work with windows .
+>> the main function has linux terminal specific commands i.e: 'system("read")'and system("clear") which can be replaced ,respectively ,to 'system("PAUSE")' and system("CLS")to work with windows .
 
 built with and on :
 gcc (SUSE Linux) 9.3.1 20200406 [revision 6db837a5288ee3ca5ec504fbd5a765817e556ac2]
